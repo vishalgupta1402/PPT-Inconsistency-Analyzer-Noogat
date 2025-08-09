@@ -5,6 +5,7 @@ Project Description
 This is a Python-based command-line tool that analyzes PowerPoint presentations (.pptx) to automatically detect factual and logical inconsistencies. The tool leverages the power of the Gemini API to compare content across all slides, identifying conflicting numerical data, contradictory claims, timeline mismatches, and other logical errors. This is particularly useful for fact-checking and quality assurance in presentations, reports, and pitch decks.
 
 1.Features :-
+
 Slide Content Extraction: Automatically extracts text and table data from each slide of a .pptx file.
 
 AI-Powered Analysis: Utilizes the Gemini API to perform a detailed, cross-slide comparison of content.
@@ -19,7 +20,8 @@ Logical mismatches in the overall narrative.
 
 Structured Output: Provides a clear, well-formatted report in the terminal, referencing specific slide numbers and the nature of each issue.
 
-2. The Solution: Explain the Approach
+2. The Solution:
+   
 This project was designed and built in three main stages to handle a .pptx file from start to finish.
 
 Breakdown of the Process :
